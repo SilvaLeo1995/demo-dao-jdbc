@@ -6,15 +6,14 @@ import java.util.List;
 
 public interface SellerDao {
 
-    static void insert(Seller obj);
+     void insert(Seller obj);
 
-    static void update(Seller obj);
+     void update(Seller obj);
 
-    static void deleteById(int id);
+     void deleteById(int id);
 
-    Department findById(int id);
+     Seller findById(int id);
 
-    List<Seller> findAll();
-
+     List<Seller> findAll();
 
 }
