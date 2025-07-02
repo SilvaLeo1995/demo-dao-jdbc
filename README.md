@@ -16,9 +16,9 @@ Este sistema permite realizar operações CRUD básicas (criar, ler, atualizar e
 
 - ## ⚙️ Configuração do banco de dados
 
-1. Crie um banco MySQL chamado `coursejdbc` (ou outro nome que desejar).
+**1.** Crie um banco MySQL chamado `coursejdbc` (ou outro nome que desejar).
 
-2. Configure o arquivo `src/resources/db.properties` com as credenciais do seu banco:
+**2.** Configure o arquivo `src/resources/db.properties` com as credenciais do seu banco:
 
 ```properties
 user=root
@@ -40,20 +40,20 @@ CREATE TABLE seller (
     DepartmentId INT,
     FOREIGN KEY (DepartmentId) REFERENCES department(Id)
 );
-
-🚀 Como rodar o projeto
+```
+ ## 🚀 Como rodar o projeto
 Compile o projeto com sua IDE favorita ou via linha de comando.
 
 Execute a classe principal application.Program. Ela contém testes básicos que demonstram as operações CRUD no console.
 
-📌 Funcionalidades implementadas
-Listar todos departamentos e vendedores.
+ ## 📌 Funcionalidades do projeto
+- Listar todos departamentos e vendedores.
 
-Buscar departamentos e vendedores por ID.
+- Buscar departamentos e vendedores por ID.
 
-Inserir, atualizar e deletar departamentos e vendedores.
+- Inserir, atualizar e deletar departamentos e vendedores.
 
-Buscar vendedores por departamento.
+- Buscar vendedores por departamento.
 
-Autor
+**Autor**
 Leonardo Gabriel — SilvaLeo1995
